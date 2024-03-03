@@ -13,12 +13,10 @@ const userSchema = new mongoose.Schema(
     },
     gender: {
       type: String,
-      unique: true,
       required: true,
     },
     dob: {
       type: String,
-      unique: true,
       required: true,
     },
     password: {
